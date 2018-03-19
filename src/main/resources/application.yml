@@ -1,0 +1,15 @@
+server:
+  port: 9527
+  address: 192.168.112.112
+  # 中文
+  servlet.context-path: /rest
+  
+#logging:
+#    path: D:\\SpringBootLogs
+#    level:
+#        root: "info"
+#        org.springframework: "info"
+#        com: "info"
+#配置日志文件
+logging:
+   config: classpath:logback-spring.xml          
